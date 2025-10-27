@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Ejercicio 2</title>
+
+<style>
+
+.contenedor {
+display: flex;
+}
+
+.columna {
+flex: 1;
+height: 300px;
+}
+
+.columna:nth-child(1) { background-color: rgb(250, 0, 0); }
+.columna:nth-child(2) { background-color: rgb(255, 230, 0); }
+.columna:nth-child(3) { background-color: rgb(255, 0, 0); }
+</style>
+</head>
+
+<body>
+<div class="contenedor">
+<div class="columna"></div>
+<div class="columna"></div>
+<div class="columna"></div>
+
+</div>
+</body>
+</html>
