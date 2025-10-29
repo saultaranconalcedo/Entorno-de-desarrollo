@@ -8,27 +8,32 @@
 
 body {
 font-family: Arial, sans-serif;
-background-color: #f2f2f2;
-padding: 40px;
+background-color: #ffffff;
+padding: 100px;
 }
 
 .tarjeta {
-background-color: white;
-border: 1px solid #ddd;
+background-color: rgb(255, 255, 255);
+border: 3px solid #000000;
 border-radius: 10px;
-box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 padding: 20px;
 max-width: 300px;
 }
 h2 {
-margin-top: 0;
+margin-top: 10px;
 }
+
 </style>
 </head>
 <body>
+
 <div class="tarjeta">
+    
 <h2>Título de la tarjeta</h2>
+
 <p>Este es un texto dentro de una tarjeta con borde, sombra y esquinas redondeadas.</p>
+
 </div>
 </body>
 </html>

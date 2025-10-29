@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <title>Ejercicio 4</title>
 <style>
+
 .galeria {
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -11,21 +12,29 @@ gap: 10px;
 padding: 20px;
 }
 .galeria img {
+
 width: 100%;
 border-radius: 8px;
 transition: filter 0.3s;
 }
+
 .galeria img:hover {
 filter: brightness(80%);
 }
+
 </style>
 </head>
 <body>
 <div class="galeria">
-<img src="https://via.placeholder.com/300" alt="Imagen 1">
-<img src="https://via.placeholder.com/300" alt="Imagen 2">
-<img src="https://via.placeholder.com/300" alt="Imagen 3">
-<img src="https://via.placeholder.com/300" alt="Imagen 4">
+    
+<img
+src="https://www.gitanos.org/upload/76/85/camaron_fumando_745x350.jpg" alt="Imagen 1">
+<img src="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2017/11/10/15103273726306.jpg" alt="Imagen 2">
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJUrK34AUp3uS5WJZlYhAXHkYw7eIuRo1bgg&s" alt="Imagen 3">
+
+<img src="https://pbs.twimg.com/media/GKKshEWXkAAod32.jpg" alt="Imagen 4">
+
 </div>
 </body>
 </html>
