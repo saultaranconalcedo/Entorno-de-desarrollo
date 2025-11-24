@@ -4,17 +4,39 @@
     background-color: rgb(252, 221, 221);
     font-family: sans-serif;
     border: 2px solid black;
+    display: inline-block;
 }
 
-.boton{
-    width: 15%;
-    height: 25px;
-    background-color:rgb(252, 221, 221);
+#titulo{
+    width:65%;
+    height: 20px;
+    font-family: sans-serif;
+    float: center;
+    align-items: center;
+    display: flex;
+    font-size: 25px
+}
+
+#ayuda{
+    width:12%;
+    height: 30px;
+    font-family: sans-serif;
+    float: right;
+    align-items: center;
+    font-size: 12px
+    text-align: center;
+    justify-content: center;
+    
+}
+
+#inicio{
+    width: 12%;
+    height:30px;
     font-family: sans-serif;
     float: right;
     align-items: center;
     display: flex;
-    justify-content: center;
+    font-size: 12px
 }
 
 .Menu{
