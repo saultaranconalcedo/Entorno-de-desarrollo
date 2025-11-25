@@ -7,7 +7,7 @@
     display: inline-block;
 }
 
-#titulo{
+.titulo{
     width:65%;
     height: 20px;
     font-family: sans-serif;
@@ -17,7 +17,7 @@
     font-size: 25px
 }
 
-#ayuda{
+.ayuda{
     width:12%;
     height: 30px;
     font-family: sans-serif;
@@ -29,7 +29,7 @@
     
 }
 
-#inicio{
+.inicio{
     width: 12%;
     height:30px;
     font-family: sans-serif;
@@ -47,3 +47,6 @@
     border: 2px solid black;
 }
 
+.buscador{
+
+}
